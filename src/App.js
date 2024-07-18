@@ -1,24 +1,23 @@
 import logo from './logo.svg';
+import manga from './img/manga1.png';
+import Cabecera from './cabecera';
+import Boton from './boton';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      < header className="App-header">
+        
+      <Cabecera/>
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+       
+        
+        <Boton/>
+      <img src={manga} className="manga" alt="Img manga" />
       </header>
     </div>
+
   );
 }
 
